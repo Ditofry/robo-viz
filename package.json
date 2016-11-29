@@ -1,0 +1,27 @@
+{
+    "name": "robo-viz",
+    "version": "1.0.0",
+    "description": "Tribute to one of the greatest artists of all time, Mr. David Bowie, and a prototypical application for a framework-driven music visualizer",
+    "main": "index.js",
+    "repository": "git@github.com:Ditofry/robo-viz.git",
+    "author": "Ditofry <bbarrett@victorops.com>",
+    "license": "MIT",
+    "dependencies": {
+        "immutable": "^3.8.1",
+        "react": "^15.4.1",
+        "react-dom": "^15.4.1",
+        "react-redux": "^4.4.6"
+    },
+    "devDependencies": {
+        "babel-core": "^6.18.2",
+        "babel-loader": "^6.2.8",
+        "babel-preset-latest": "^6.16.0",
+        "babel-preset-react": "^6.16.0",
+        "postcss": "^5.2.6",
+        "postcss-cssnext": "^2.9.0",
+        "webpack": "^1.13.3"
+    },
+    "scripts": {
+        "build": "webpack"
+    }
+}
